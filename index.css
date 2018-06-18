@@ -1,0 +1,72 @@
+.fi-mu-list {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.list__head {
+    padding: 10px;
+    padding: 5px;
+    background-color: #eee;
+} 
+
+.match{
+    margin-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+}
+
+.head__date {
+    font-size: 18px;
+    color: #474747;
+}
+
+.match a:hover,
+.match mu__link:hover .team__name {
+    text-decoration: none;
+}
+
+.mu__link{
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+}
+
+.team--left{
+    display: inline-block;
+    width: 40%;
+    float: left;
+    text-align: right;
+}
+
+.score{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.team--right{
+    width: 40%;
+    display: block;
+    float: left;
+    text-align: left;
+}
+
+.t__nText{
+    font-size: 21px;
+    display: block;
+}
+
+.flag{
+    width: 64px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.team__name{
+    color: #474747;
+}
