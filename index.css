@@ -47,6 +47,7 @@
     width: 20%;
     float: left;
     text-align: center;
+    font-size: 25px;
 }
 
 .team--right{
@@ -69,4 +70,25 @@
 
 .team__name{
     color: #474747;
+}
+
+.rate {
+    font-size: 25px;
+}
+
+.rate-left-team{
+    margin-right: 20px;
+}
+
+.rate-right-team{
+    margin-left: 20px;
+}
+
+.table{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.bet{
+    margin-top: 30px;
 }
